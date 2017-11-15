@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Teko" rel="stylesheet">
 
 </head>
 <body>
@@ -26,33 +27,34 @@
 		    </div>
 		    <div class="collapse navbar-collapse" id="myNavbar">
 		      	<ul class="nav navbar-nav navbar-right">
-		     	<li><a href="#">About Me</a></li>
-		     	<li><a href="#">Education</a></li>
-		     	<li><a href="#">Career Accomplishments</a></li>
-		     	<li><a href="#">Technical Skills</a></li>
-		     	<li><a href="#">Portfolio</a></li>
-		     	<li><a href="#">Contact Me</a></li>
+		     	<li><a href="#aboutMe">About Me</a></li>
+		     	<li><a href="#education">Education</a></li>
+		     	<li><a href="#career">Career Accomplishments</a></li>
+		     	<li><a href="#skills">Technical Skills</a></li>
+		     	<li><a href="#portfolio">Portfolio</a></li>
+		     	<li><a href="#contact">Contact Me</a></li>
 		    	</ul>
 		    </div>
 		</div> <!-- navigation bar /.container-fluid -->
 	</nav>
 
 	<!-- about me -->
-	<header class="jumbotron">
+	<header id="aboutMe" class="jumbotron">
 		<div class="row"> 
 			<div class="col-sm-12 col-md-12 text-center">
 				<img class="image-responsive" src="./images/me.png" alt="my picture">
 				<h1>Jennifer Daigo</h1>
-				<p>Aspiring Full Stack Web Developer</p>
+				<p>Web Developer</p>
+				<p>Creating SOMETHING from NOTHING</p>
 			</div>
 		</div>
 	</header> <!-- about me /.jumbotron -->
 
 	<main>
 		<!-- education timeline -->
-		<div class="container">
+		<div id="education" class="container text-center">
 	    	<div class="page-header">
-				<h1>Education</h1>
+				<h2>Education</h2>
 	    	</div>
 	    	<ul class="timeline">
 	        	<li>
@@ -65,7 +67,6 @@
 		                </div>
 		                <div class="timeline-body">
 		                    <p>Tuitt Philippines Inc.</p>
-		                    <p>Caswynn Building, No. 134 Timog Avenue, Sacred Heart, Diliman, Quezon City, Philippines</p>
 		                    <p>August 2017 - November 2017</p>
 		                </div>
 		            </div>
@@ -80,7 +81,6 @@
 		                </div>
 		                <div class="timeline-body">
 		                    <p>Informatics College of Quezon City – Diliman</p>
-		                    <p>29 North Avenue, North EDSA, Diliman, 1108 Quezon City, Philippines</p>
 		                    <p>HB (Mayor Herbert Bautista) Quezon City residence scholar</p>
 		                    <p>Academic Excellence Award recipient</p>
 		                    <p>2008 - 2012</p>
@@ -97,18 +97,17 @@
 		                </div>
 		                <div class="timeline-body">
 		                    <p>Lagro High School</p>
-		                    <p>Misa de Gallo St., Barangay, Greater Lagro, Novaliches Quezon City, Philippines</p>
 		                    <p>2004 - 2008</p>
 		                </div>
 		            </div>
 		        </li>
 	    	</ul>
-		</div> <!-- education timeline /.container-->
+		</div>
 
 		<!-- career accomplishments timeline -->
-		<div class="container">
+		<div id="career" class="container text-center">
 	    	<div class="page-header">
-				<h1>Career Accomplishments</h1>
+				<h2>Career Accomplishments</h2>
 	    	</div>
 	    	<ul class="timeline">
 	        	<li>
@@ -117,11 +116,10 @@
 		        	</div>
 		            <div class="timeline-panel">
 		                <div class="timeline-heading">
-							<h4 class="timeline-title">Project Planning and Management Group Technical Admin</h4>
+							<h4 class="timeline-title">Project Planning and Management Group Pre-sales Engineer</h4>
 		                </div>
 		                <div class="timeline-body">
 		                    <p>Philippine Global Communications, Inc. (PhilCom)</p>
-		                    <p>8755 PhilCom Building Paseo de Roxas, Makati City, Philippines</p>
 		                    <p>October 2016 - March 2016</p>
 		                </div>
 		            </div>
@@ -136,7 +134,6 @@
 		                </div>
 		                <div class="timeline-body">
 		                    <p>Cycfi Research Inc</p>
-		                    <p>Benito Street BF Homes, Holy Spirit, Quezon City, Philippines</p>
 		                    <p>January 2013 - March 2016</p>
 		                </div>
 		            </div>
@@ -151,100 +148,97 @@
 		                </div>
 		                <div class="timeline-body">
 		                    <p>Philippine Long Distance Telephone Co. (PLDT)</p>
-		                    <p>New Building (NSOB) – España Sampaloc, Manila, Philippines</p>
 		                    <p>July 2012 - September 2012</p>
 		                </div>
 		            </div>
 		        </li>
 	    	</ul>
-		</div> <!-- career accomplishments timeline /.container-->
+		</div>
 
-		<!-- skill level -->
-		<div class="fluid-container">
-			<div class="row skilllvlcon">
+		<!-- skills -->
+		<div id="skills" class="container">
+			<div class="row text-center">
 				<div class="col-sm-12 col-md-12">
 					<div class="page-header">
-						<h1>Skills</h1>
+						<h2>Skills</h2>
 	    			</div>
-					<p class="skillset">HTML</p>
-					<div class="skillBarCon">
-					  <div class="skills html">90%</div>
-					</div>
-
-					<p class="skillset">CSS</p>
-					<div class="skillBarCon">
-					  <div class="skills css">80%</div>
-					</div>
-
-					<p class="skillset">Bootstrap</p>
-					<div class="skillBarCon">
-					  <div class="skills bootstrap">65%</div>
-					</div>
+	    			<ul class="col-md-6">
+						<li>HTML 5</li>
+						<li>CSS 3</li>
+						<li>Bootstrap</li>
+						<li>Javascript</li>
+					</ul>
+	    			<ul class="col-md-6">
+						<li>JQuery</li>
+						<li>PHP</li>
+						<li>MySQL</li>
+						<li>Laravel</li>
+	    			</ul>
 				</div>
 			</div>
-		</div> <!-- skill level /.fluid-container -->
+		</div> 
 
 		<!-- portfolio -->
-		<div class="fluid-container">
-			<div class="row portfoliocon">
+		<div id="portfolio" class="container">
+			<div class="row text-center">
 				<div class="col-sm-12 col-md-12">
 					<div class="page-header">
-						<h1>Portfolio</h1>
-	    			</div>
-	    			<h4>Bootcamp Capstone Project 1</h4>
-	    			<p>E-commerse website</p>
-	    			<a href="https://ambientine.github.io/capstone_project1/index.html">
-	    				<img src="./images/capstone_project1.png" alt="capstone project 1">
-	    			</a>	
+						<h2>Portfolio</h2>
+					</div>
+					<div class="col-md-4">
+		    			<h4>Capstone Project 1</h4>
+		    			<p>E-commerce Website</p>
+		    			<a href="https://ambientine.github.io/capstone_project1/index.html">
+		    				<img src="./images/capstone_project_1.png" target="_blank" alt="capstone project 1">
+		    			</a>
+		    		</div>
+		    		<div class="col-md-4">
+		    			<h4>Capstone Project 2</h4>
+		    			<p>E-commerce Website</p>
+		    			<a href="https://house-of-electronics.000webhostapp.com/">
+		    				<img src="./images/capstone_project_2.png" target="_blank" alt="capstone project 2">
+		    			</a>
+		    		</div>
+		    		<div class="col-md-4">
+		    			<h4>Capstone Project 3</h4>
+		    			<p>Project Management Website</p>
+		    			<a href="https://likha-work-dynamically.000webhostapp.com/">
+		    				<img src="./images/capstone_project_3.png" target="_blank" alt="capstone project 2">
+		    			</a>
+		    		</div>	
 				</div>
 			</div>
 		</div>
 
 		<!-- contact -->
-		<div class="container-fluid">
-			<div class="row contactcon">
+		<div id="contact" class="container">
+			<div class="row text-center">
 				<div class="col-sm-12 col-md-12">
-					<div class="page-header">
-						<h1>Contact me</h1>
-	    			</div>
-					<div>
-						<i class="fa fa-envelope" aria-hidden="true">
-							<span>jenniferdaigo@gmail.com</span>
-						</i>
+					<div id="email">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+						<span>jenniferdaigo@gmail.com</span>
 					</div>
-					<div>
-						<i class="fa fa-mobile maincontact" aria-hidden="true">
-							<span>&nbsp;(+63)916352-9537</span>
-						</i>
-					</div>
-					<div>
-						<i class="fa fa-github" aria-hidden="true"	></i>
-						<i class="fa fa-gitlab" aria-hidden="true"></i>
-						<i class="fa fa-facebook" aria-hidden="true"></i>
-						<i class="fa fa-twitter" aria-hidden="true"></i>
-						<i class="fa fa-google-plus" aria-hidden="true"></i>
+					<div id="connect">
+						<a href="https://gitlab.com/ambientine" class="fa fa-github" aria-hidden="true"	></a>
+						<a href="https://github.com/ambientine" class="fa fa-gitlab" aria-hidden="true"></a>
+						<a href="https://www.facebook.com/ambientine" class="fa fa-facebook" aria-hidden="true"></a>
+						<a href="https://plus.google.com/u/1/112503029676893331043" class="fa fa-google-plus" aria-hidden="true"></a>
 					</div>
 				</div>
 			</div>
 		</div>
-
 	</main>
-	
 
-
-
-
-	<footer class="container-fluid">
-		<div class="row">
-			<div class="col-xs-12 col-md-12 text-center">
-				<p>Copyright &copy; 2017 Jennifer Daigo</p>
-			</div>
+	<footer class="row">
+		<div class="col-xs-12 col-md-12 text-center">
+			<p>Copyright &copy; 2017 Jennifer Daigo</p>
 		</div>
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
-    
+
 </body>
+
 </html>
 
